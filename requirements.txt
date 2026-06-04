@@ -1,4 +1,4 @@
-openai
+groq
 faiss-cpu
 python-dotenv
 numpy
