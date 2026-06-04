@@ -1,0 +1,15 @@
+Python is a high-level, interpreted programming language known for its simple and readable syntax. It was created by Guido van Rossum and first released in 1991.
+
+A Python list is an ordered, mutable collection that can hold items of any type. Lists are defined with square brackets, e.g. my_list = [1, 2, 3]. You can append items with my_list.append(4) and access elements by index.
+
+A Python dictionary is an unordered collection of key-value pairs. Dictionaries are defined with curly braces, e.g. my_dict = {"name": "Alice", "age": 30}. Keys must be unique and immutable.
+
+A Python virtual environment (venv) is an isolated Python environment that allows you to install packages for a specific project without affecting the global Python installation. You create one with python -m venv .venv and activate it with .venv\Scripts\activate on Windows or source .venv/bin/activate on Linux/macOS.
+
+pip is the standard package manager for Python. You use pip install package_name to install packages, pip uninstall package_name to remove them, and pip freeze to list installed packages. Requirements can be saved to a file with pip freeze > requirements.txt.
+
+Python supports object-oriented programming through classes. A class is defined with the class keyword, and instances are created by calling the class. Python supports inheritance, allowing a class to inherit attributes and methods from a parent class.
+
+Python functions are defined with the def keyword. Functions can accept positional arguments, keyword arguments, default values, and variable-length arguments using *args and **kwargs.
+
+Python list comprehensions provide a concise way to create lists. For example, squares = [x**2 for x in range(10)] creates a list of squares from 0 to 81.
