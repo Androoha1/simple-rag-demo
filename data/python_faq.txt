@@ -13,3 +13,7 @@ Python supports object-oriented programming through classes. A class is defined 
 Python functions are defined with the def keyword. Functions can accept positional arguments, keyword arguments, default values, and variable-length arguments using *args and **kwargs.
 
 Python list comprehensions provide a concise way to create lists. For example, squares = [x**2 for x in range(10)] creates a list of squares from 0 to 81.
+
+A Python tuple is an ordered, immutable sequence. Tuples are defined with parentheses, e.g. my_tuple = (1, 2, 3). Unlike lists, tuples cannot be modified after creation, making them suitable for fixed collections like coordinates or database records. You can access tuple elements by index, just like a list.
+
+A lambda function in Python is a small anonymous function defined with the lambda keyword. For example, double = lambda x: x * 2 creates a function that doubles its input. Lambda functions are typically used with higher-order functions like map(), filter(), and sorted() where a short, one-off function is needed.
